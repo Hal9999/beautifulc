@@ -17,9 +17,6 @@ struct nodo{	//nodo contenitore
 				void *data;
 		   };
 
-
-
-
 //NUOVI PROTOTIPI: generici riguardo l'uso di strutture definite dall'utente
 //int vislist(struct nodo *list, void (*stamp)());
 //void stampa(struct persona *dato);
@@ -91,11 +88,6 @@ int byelist(struct nodo **list, void (*fre)())
 		return 1;
 	}
 }
-
-
-
-
-
 
 int vislist( struct nodo *list, void (*stamp)() )	//se viene richiamata almeno una volta la funzione passata, restituisce vero, altrimenti (se la lista è vuota) restituisce falso
 {
@@ -211,8 +203,3 @@ struct persona *creapersona(void)
 	return nuovo;
 }
 */
-
-
-
-
-
